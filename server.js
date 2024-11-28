@@ -6,7 +6,7 @@ const app = express();
 
 app.use(cors());
 
-const PORTA = 3000;
+const PORTA = 80;
 
 
 app.get('/api', (req, res) => {
